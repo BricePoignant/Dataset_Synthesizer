@@ -24,6 +24,7 @@ IMPLEMENT_MODULE(IModuleNVSceneCapturerEditor, NVSceneCapturerEditor)
 //General Log
 DEFINE_LOG_CATEGORY(LogNVSceneCapturerEditor);
 
+#undef LOCTEXT_NAMESPACE
 #define LOCTEXT_NAMESPACE "NVSceneCapturerEditor"
 void IModuleNVSceneCapturerEditor::StartupModule()
 {
